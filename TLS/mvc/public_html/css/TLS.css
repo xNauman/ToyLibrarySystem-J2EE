@@ -1,0 +1,117 @@
+BODY
+{
+  background-color: orange;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 50px;
+}
+H1
+{
+  color: Orange;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+  font-weight: bolder;
+  text-transform: capitalize;
+}
+H2
+{
+  color: navy;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: bolder;
+  text-transform: capitalize;
+}
+H3
+{
+  color: navy;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: lighter;
+  text-transform: capitalize;
+}
+
+td {
+    ##width: 200px;
+    border: 1px solid black;
+}
+
+#item {
+    text-align: center;
+    color: orange;
+}
+
+p {
+    color: black;
+}
+
+#container {
+    width: 1200px;
+    height: 700px;
+}
+
+#logout {
+    float: right;
+    text-align: right;
+}
+#hireButton{
+    float: left;
+    text-align: left;
+}
+
+#header {
+    background-image: url(../image/1.gif) ;
+    background-repeat: no-repeat;
+    width: 1178px;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid black;
+}
+
+#menu {
+    border: 1px solid black;
+    width: 150px;
+    height: 90%;
+    padding: 10px;
+    padding-top: 50px;
+    float: left;
+    background-color: white;
+}
+
+#content {
+    border: 1px solid black;    
+    width: 956px;
+    height: 90%;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    padding-left: 70px;
+    text-align: left;
+    float: left;
+    overflow: auto;
+    background-color: white;
+}
+
+#Register {
+    width: 700px;
+    height: 600px;
+    padding: 50px;
+    text-align: left;
+}
+
+#Login {
+    width: 320px;
+    height: 100px;
+    padding: 50px;
+}
+
+label{
+    display: block;
+    width: 150px;
+    float: left;
+    color:#FFFFFF;
+}
+
+#text {
+    color: orange;
+}

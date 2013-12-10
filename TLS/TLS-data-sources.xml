@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'windows-1252'?>
+<data-sources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.oracle.com/oracleas/schema http://xmlns.oracle.com/oracleas/schema/data-sources-10_1.xsd" version="10.1" xmlns="http://xmlns.oracle.com/oracleas/schema">
+    <connection-pool name="jdev-connection-pool-TLS">
+        <connection-factory factory-class="oracle.jdbc.pool.OracleDataSource" user="admin" password="->DataBase_User_UIZH1n55DfkjkyYlux4vVQfoFl6sof96" url="jdbc:oracle:thin:@localhost:1521:xe"/>
+    </connection-pool>
+    <managed-data-source name="jdev-connection-managed-TLS" jndi-name="jdbc/TLSDS" connection-pool-name="jdev-connection-pool-TLS"/>
+    <native-data-source name="jdev-connection-native-TLS" jndi-name="jdbc/TLSCoreDS" url="jdbc:oracle:thin:@localhost:1521:xe" user="admin" password="->DataBase_User_ECL5ly3E-QHaHjgV4MHpWaZzOfXQ6Yfx" data-source-class="oracle.jdbc.pool.OracleDataSource"/>
+    <connection-pool name="jdev-connection-pool-TLSDB">
+        <connection-factory factory-class="oracle.jdbc.pool.OracleDataSource" user="raja" password="->DataBase_User_xhKUrG0b9n1C-Xuq-LYUQGT7KtIxV5Nm" url="jdbc:oracle:thin:@localhost:1521:xe"/>
+    </connection-pool>
+    <managed-data-source name="jdev-connection-managed-TLSDB" jndi-name="jdbc/TLSDBDS" connection-pool-name="jdev-connection-pool-TLSDB"/>
+    <native-data-source name="jdev-connection-native-TLSDB" jndi-name="jdbc/TLSDBCoreDS" url="jdbc:oracle:thin:@localhost:1521:xe" user="raja" password="->DataBase_User_QZNQJLLJJKh4kWOTMxA45TzU6AwxmAaS" data-source-class="oracle.jdbc.pool.OracleDataSource"/>
+    <connection-pool name="jdev-connection-pool-TLSDBConnection">
+        <connection-factory factory-class="oracle.jdbc.pool.OracleDataSource" user="admin" password="->DataBase_User_EQ5dhoMSVoNPjWglZORfQeD4By_AD-4L" url="jdbc:oracle:thin:@localhost:1521:xe"/>
+    </connection-pool>
+    <managed-data-source name="jdev-connection-managed-TLSDBConnection" jndi-name="jdbc/TLSDBConnectionDS" connection-pool-name="jdev-connection-pool-TLSDBConnection"/>
+    <native-data-source name="jdev-connection-native-TLSDBConnection" jndi-name="jdbc/TLSDBConnectionCoreDS" url="jdbc:oracle:thin:@localhost:1521:xe" user="admin" password="->DataBase_User_sctIswOX7F7cMRta-9SfuSyOn22AApSS" data-source-class="oracle.jdbc.pool.OracleDataSource"/>
+</data-sources>
